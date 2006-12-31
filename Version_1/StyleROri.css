@@ -1,0 +1,224 @@
+﻿body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(155, 113, 50);
+    background-image: url('../Version1/Image/pattern39.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+/*    font-family: 'Droid Serif' , serif;*/
+   font-family:Papyrus;
+}
+
+div, span
+{
+    /*margin: 2px;     border: 1px solid black;*/
+}
+
+.aspNetHidden
+{
+    display: none;
+}
+.clearboth
+{
+    clear: both;
+    width: 0px;
+    height: 0px;
+    border: 0px none transparent;
+}
+
+.siteContent
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.headerDiv
+{
+    height: 157px;
+    overflow: hidden; /*background-color: #8C703B; rgb(212, 182, 126);*/
+    background-color:rgb(236, 194, 104);
+    margin: 22px 0px 0px 0px;
+    padding: 11px 0px
+}
+
+.logoDiv
+{
+    width: 16%;
+    float: left;
+    background: url("../Version1/Image/LogoImg.png") no-repeat scroll 0 0 / contain  rgba(0,0,0,0);
+    height: 159px;
+    margin: 0px 0px 0px 32px;
+}
+
+.NameDiv
+{
+    float: left;
+    font-size: 6vmax; /*color: rgba(213, 118, 9,0.69);*/
+    color: rgb(142, 73, 40);
+    max-height: 98%;
+    background-color:rgb(236, 194, 104);
+    margin: 22px 0px 0px 47px;
+
+}
+
+/*Menu Css Starts here*/
+.menuDiv
+{
+    background-color: rgb(244, 245, 222);
+}
+
+#coolMenu, #coolMenu ul
+{
+    list-style: none;
+}
+#coolMenu
+{
+    overflow: hidden;
+    max-width: 750px;
+    text-align: center;
+    height: 50px;
+}
+#coolMenu > li
+{
+    float: left; /*border: 2px solid #fff;*/
+    width: 25%;
+    margin: 10px 0;
+}
+#coolMenu li a
+{
+    /*display: block;     height: 2em;     line-height: 2em; padding: 0 1.5em; background: #f1eedb;     color: #8d472b;*/
+    text-decoration: none;
+    color: rgb(142, 73, 40);
+    padding: 0px 4px 0px 4px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;
+    white-space:nowrap;
+}
+#coolMenu ul
+{
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#coolMenu ul li
+{
+    /*border: 1px solid #fff;*/
+    background-color: rgb(244, 245, 222);
+}
+#coolMenu ul.noJS
+{
+    width: 10%;
+}
+#coolMenu li:hover ul.noJS
+{
+    display: block;
+}
+
+#coolMenu li:hover > a
+{
+    background: rgb(66, 33, 11);
+    color: rgb(255, 255, 255);
+}
+
+/*Menu Css Ends here*/
+
+.HomeBody
+{
+    box-shadow: 10px 10px 5px rgb(36, 24, 6);
+    color: rgb(153, 112, 49);	
+    background-color: rgb(244, 245, 222);
+    text-align: justify;
+    padding: 3px 10px;
+}
+
+.HomeBody p{
+  font-weight: bold;
+}
+
+
+.HomeBody b{
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.productlistBody
+{
+    overflow: hidden; /*padding: 0 10px;*/
+    box-shadow: 10px 10px 5px rgb(36, 24, 6);
+    color: rgb(153, 112, 49);	
+    background-color: rgb(244, 245, 222);
+    text-align: justify;
+    padding: 3px 10px;
+}
+
+.prodContainer
+{
+    float: left;
+    width: 218px;
+    margin: 10px 10px;
+    overflow: auto;
+    border: 3px solid;
+    max-height: 365px;
+}
+
+.prodImg
+{
+    height: 250px;
+    width: 100%;
+    border-bottom: 4px solid #fff;
+    overflow: hidden;
+}
+
+.prodImg img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.prodDisDiv
+{
+    background-color: rgb(244, 245, 222);
+    padding: 0 10px;
+}
+
+.ProdName
+{
+    color: rgb(102, 102, 102);
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: justify;
+    max-height: 50px;
+}
+
+.ProdPrice
+{
+    color: rgb(102, 102, 102);
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: justify;
+    max-height: 30px;
+}
+
+.prodAction
+{
+     margin: 4px 0;
+}
+.prodAction a
+{
+    background: rgb(244, 245, 222);
+    color: rgb(104, 0, 0);
+    text-decoration: none;
+    display:inline-block;
+    /*width:75px;*/
+    white-space:nowrap;
+    text-align:center;
+    height: 25px;
+    margin:0px 5px; 
+}
