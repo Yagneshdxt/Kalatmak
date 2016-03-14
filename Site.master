@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster"
+    EnableViewState="true" ViewStateMode="Enabled" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Kalatmak-Decorative Gifts Shop</title>
+    <meta name="keywords" content="Decorative Items, Best Gifts, Clay Items, Best Cheap Gifts, Artistic Gifts, Best Gift Ideas">
+    <meta name="description" content="We are Art lovers trying to bring forth the unmatched beauty of traditional Indian art.">
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+	  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44895360-1', 'kalatmak.net');
+        ga('send', 'pageview');
+
+    </script>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="siteContent">
+        <%--------------- Header body
+*                 Header body
+*                 Header body
+*-----------------%>
+        <div class="headerContent">
+            <div class="headerDiv">
+                <a id="lnkLogo" href="Default.aspx" runat="server">
+                    <div class="logoDiv">
+                    </div>
+                </a>
+                <div class="NameDiv">
+                    <div  class="TitleDiv"> KALATMAK </div>
+                    <div class="sloganDiv"> The Soul of Art </div>
+                </div>
+                <div class="clearboth">
+                </div>
+            </div>
+        </div>
+        <div class="menuDiv">
+            <ul id="coolMenu">
+                <li><a href="Default.aspx" runat="server">Home</a> </li>
+                <li><a href="#">Products</a>
+                    <ul class="noJS">
+                        <asp:Repeater ID="repMenu" runat="server">
+                            <ItemTemplate>
+                                <li><a href='<%# "Product/DisplayProduct.aspx?catID=" + Eval("CategoryID") %>' runat="server">
+                                    <%# Eval("CategoryName")%>
+                                </a></li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </li>
+                <li><a href="ContactUs.aspx" runat="server">Contact Us</a>
+                    <ul class="noJS">
+                        <li><a id="lnkAboutUs" href="About.aspx" runat="server">About Us</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <%--------------- Main Body
+*                 Main Body
+*                 Main Body
+*-----------------%>
+        <div class="centerBody">
+            <form runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </form>
+        </div>
+        <%--------------- Footer
+*                 Footer
+*                 Footer
+*-----------------%>
+        <span class="clear">&nbsp;&nbsp;</span>
+        <div class="FooterContent">
+            <p>
+                Contact : <a href="mailto:parvina@kalatmak.net">Pravina Vishway (9833090495) </a>
+                &nbsp;&nbsp;&nbsp; <a href="mailto:moushumi@kalatmak.net">Moushumi Chhatre (9324775556)
+                </a>&nbsp;&nbsp;&nbsp; <a href="mailto:kavita@kalatmak.net">Kavita Malviya (9300877622)
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

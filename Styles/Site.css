@@ -1,0 +1,606 @@
+﻿body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(155, 113, 50); /*background-image: url('../images/pattern39.png');*/
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed; /*    font-family: 'Droid Serif' , serif;*/
+    font-family: Papyrus;
+    color: rgb(102, 47, 14);
+}
+
+a
+{
+    font-family: Papyrus;
+    color: rgb(102, 47, 14);
+}
+
+div, span
+{
+    /*margin: 2px;     border: 1px solid black;*/
+}
+
+.aspNetHidden
+{
+    display: none;
+}
+.clearboth
+{
+    clear: both;
+    width: 0px;
+    height: 0px;
+    border: 0px none transparent;
+}
+
+.clear
+{
+    clear: both;
+    width: 0px;
+    height: 0px;
+    border: 0px none transparent;
+}
+.siteContent
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.headerDiv
+{
+    height: 157px;
+    overflow: hidden; /*background-color: #8C703B; rgb(212, 182, 126);*/
+    background-color: rgb(236, 194, 104);
+    margin: 22px 0px 0px 0px;
+    padding: 11px 0px;
+}
+
+.logoDiv
+{
+    width: 16%;
+    float: left;
+    background: url("../images/LogoImg.png") no-repeat scroll 0 0 / contain rgba(0,0,0,0);
+    height: 159px;
+    margin: 0px 0px 0px 32px;
+}
+
+.NameDiv
+{
+    float: left;
+    max-height: 98%;
+    margin: 22px 0px 0px 47px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.TitleDiv
+{
+    font-size: 61pt;
+    line-height: 70pt;
+}
+
+.sloganDiv
+{
+    font-size: 25px;
+    font-style: italic;
+    line-height: 21pt;
+    padding: 0 15px;
+    text-align: right;
+}
+
+/*Menu Css Starts here*/
+.menuDiv
+{
+    background-color: rgb(244, 245, 222);
+}
+
+#coolMenu, #coolMenu ul
+{
+    list-style: none;
+}
+#coolMenu
+{
+    overflow: hidden;
+    max-width: 750px;
+    text-align: center;
+    height: 50px;
+}
+#coolMenu > li
+{
+    float: left; /*border: 2px solid #fff;*/
+    width: 25%;
+    margin: 10px 0;
+}
+#coolMenu li a
+{
+    /*display: block;     height: 2em;     line-height: 2em; padding: 0 1.5em; background: #f1eedb;     color: #8d472b;*/
+    text-decoration: none;
+    padding: 0px 4px 0px 4px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+}
+#coolMenu ul
+{
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#coolMenu ul li
+{
+    /*border: 1px solid #fff;*/
+    background-color: rgb(244, 245, 222);
+}
+#coolMenu ul.noJS li
+{
+    text-align: left; /*width: 10%;*/
+}
+#coolMenu li:hover ul.noJS
+{
+    display: block;
+}
+
+#coolMenu li:hover > a
+{
+    background: rgb(66, 33, 11);
+    color: rgb(255, 255, 255);
+}
+
+#coolMenu li ul li:hover
+{
+    background: rgb(66, 33, 11);
+    color: rgb(255, 255, 255);
+}
+
+/*Menu Css Ends here*/
+
+.HomeBody
+{
+    padding: 10px 10px;
+}
+
+.HomeBody p
+{
+    font-weight: bold;
+}
+
+
+.HomeBody b
+{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.centerBody
+{
+    overflow: hidden; /*padding: 0 10px;*/
+    box-shadow: 10px 10px 5px rgb(36, 24, 6);
+    background-color: rgb(244, 245, 222);
+    text-align: justify;
+}
+
+.productlistBody
+{
+    padding: 10px 10px;
+    background: #FFFFFF;
+}
+
+.prodContainer
+{
+    float: left;
+    width: 218px;
+    margin: 10px 10px;
+    overflow: auto;
+    border: 0px solid;
+    height: 335px;
+}
+
+.prLstImgCont
+{
+    /*height: 250px;*/ /*width: 100%;*/
+    position: relative;
+}
+
+.prodImg
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Align center inline elements */
+    font: 0/0 a;
+    overflow: hidden;
+}
+
+.prodImg a
+{
+}
+
+.prodImg img
+{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.prodDisDiv
+{
+    padding: 0 10px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.ProdName
+{
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: justify;
+    max-height: 53px;
+}
+
+.ProdPrice
+{
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: justify;
+    max-height: 30px;
+}
+
+.prodAction
+{
+    margin: 4px 0;
+    text-align: center;
+}
+.prodAction a
+{
+    background: #d7d4c1;
+    text-decoration: none;
+    display: inline-block; /*width:75px;*/
+    white-space: nowrap;
+    text-align: center;
+    height: 25px;
+    font-weight: bold;
+}
+
+.FooterContent
+{
+    background-color: rgb(244, 245, 222);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/********************************* Product Details CSs **************************/
+
+.proDetContainer
+{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.proDetContainer .proDetLeft
+{
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+}
+
+/************** Image centering logic *******************/
+.prDeImgContainer
+{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.dummy
+{
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+}
+
+.ProDetProdImg
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.Imgdummy
+{
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.ProDetProdImg img
+{
+    max-width: 100%;
+    max-height: 350px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/************** Image centering logic *******************/
+.proDetContainer .proDetRight
+{
+    overflow: hidden;
+    margin: 0px 5px;
+    width: auto;
+}
+
+#divOrderNow, #divEnquiry
+{
+    padding: 0px 20px;
+    border: 2px solid;
+}
+
+.moreImg
+{
+    margin: 2px; /*border: 1px solid black;*/
+    height: 87px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+}
+
+.moreImgGallary
+{
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+    width: 87%;
+    height: 90%;
+}
+
+.ImgContainer
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.ImgContainer > div
+{
+    width: 92px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+}
+
+.ImgContainer > div > img
+{
+    height: 69px;
+    width: 95px;
+}
+
+
+.prebtndiv
+{
+    background: url("../images/leftrightArrow.jpg") no-repeat scroll left 1px top -39px rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 27px;
+    position: relative;
+    top: 27px;
+    width: 30px;
+    z-index: 1;
+}
+
+.nxtbtndiv
+{
+    background: url("../images/leftrightArrow.jpg") no-repeat scroll left 1px top -5px rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    height: 28px;
+    position: relative;
+    top: -55px;
+    width: 30px;
+    z-index: 1;
+    right: -5px;
+}
+
+.hidDiv
+{
+    background-color: white;
+    opacity: 0.4;
+}
+
+.zoomImgDisp
+{
+    position: absolute;
+    display: none;
+    z-index: 1; /*Multiple box shadows to achieve the glass effect*/
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.proDetRight h3
+{
+    background-color: #d7d4c1;
+    margin: 7px 0;
+    cursor: context-menu;
+}
+
+.proDetRight a
+{
+    text-decoration: none;
+}
+
+.msgOverlay
+{
+    background-color: rgba(15, 15, 15, 0.5);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+}
+
+.msgContent
+{
+    margin: 10% auto;
+    background-color: white;
+    width: 500px;
+    max-height: 700px;
+    overflow: auto;
+}
+
+.clsClosePopup
+{
+    background-color: #d7d4c1;
+    padding: 0 15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.DivcolorCodes
+{
+    float: left;
+}
+
+.divColor
+{
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+
+.DivcolorCodes.divSelected
+{
+    border: 2px solid;
+}
+
+.DivcolorCodes.SelectedColor
+{
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+/********************************* Product Details CSs **************************/
+
+.divProdPaging
+{
+    text-align: right;
+}
+
+.divProdPaging span a
+{
+    text-decoration: none;
+    background-color: #d7d4c1;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+}
+
+.divProdPaging .aspNetDisabled, .divProdPaging span span
+{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/**************Home page new design start*****************/
+
+.homePgCont
+{
+    padding: 10px;
+    overflow: auto;
+    background-color: White;
+}
+
+.hpParentUl
+{
+    list-style: none;
+    padding: 0;
+}
+
+.hpParentUl li
+{
+    border: 1px solid;
+    margin: 10px 0; /*overflow: hidden;*/
+    padding: 0;
+}
+
+.hpParentUl li > a
+{
+    display: block;
+    background-color: rgb(66, 33, 11);
+    color: White;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hpProdContainer
+{
+    float: left;
+    width: 218px;
+    margin: 10px 10px;
+    overflow: auto;
+    border: 0px solid;
+    height: 335px;
+}
+
+.HpprodList
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1500px;
+    overflow: hidden;
+}
+
+.clsLstWrap
+{
+    overflow: hidden;
+    width: 98%;
+}
+
+.hpMoreLink
+{
+    float: right;
+    left: 10px;
+    position: relative;
+    top: -210px;
+    color: White;
+    background-color: rgb(66, 33, 11);
+}
+
+.hpMoreLink > a
+{
+    color: White;
+    background-color: rgb(66, 33, 11);
+}
+/**************Home page new design ends*****************/
+
+#divzoomLoding
+{
+    width: 100%;
+    height: 100%;
+    background: url("../images/loader.gif") no-repeat center;
+}

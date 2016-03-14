@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Kalatmak", ".", "{D38972E6-4583-4EEB-BDD5-339267AE4F76}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Kalatmak"
+		Debug.AspNetCompiler.PhysicalPath = "E:\Kalatmak\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Kalatmak\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Kalatmak"
+		Release.AspNetCompiler.PhysicalPath = "E:\Kalatmak\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Kalatmak\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1661"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38972E6-4583-4EEB-BDD5-339267AE4F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38972E6-4583-4EEB-BDD5-339267AE4F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
